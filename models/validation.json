@@ -1,0 +1,29 @@
+{
+  "pytest": {
+    "exit_code": 0,
+    "output": "........                                                                 [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\starlette\\testclient.py:40\n  C:\\obl2\\.venv\\Lib\\site-packages\\starlette\\testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.\n    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n8 passed, 1 warning in 6.63s\n"
+  },
+  "pycodestyle": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "http": {
+    "healthcheck": {
+      "status": 200,
+      "body": {
+        "status": "ok"
+      }
+    },
+    "predictions": {
+      "status": 200,
+      "body": {
+        "predicted_traffic_volume": 4265.89
+      }
+    },
+    "docs": 200,
+    "openapi.json": 200,
+    "python": "3.12.14",
+    "os": "Windows-10-10.0.19045-SP0",
+    "note": "Проверка реального Uvicorn на порту 8765; после проверки сервер остановлен."
+  }
+}

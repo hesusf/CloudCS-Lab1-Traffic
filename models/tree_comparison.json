@@ -1,0 +1,16 @@
+{
+  "100_trees": {
+    "MAE": 298.5506891666667,
+    "RMSE": 539.1316166110857,
+    "R2": 0.9263833069046016
+  },
+  "200_trees": {
+    "MAE": 298.0677253333333,
+    "RMSE": 538.9527467642595,
+    "R2": 0.9264321470091116
+  },
+  "training_seconds_200": 22.49441519999982,
+  "selected_trees": 200,
+  "selection_metric": "RMSE",
+  "note": "Same chronological 8000/2000 split; evaluation set used for model selection."
+}
